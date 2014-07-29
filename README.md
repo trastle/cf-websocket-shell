@@ -14,17 +14,19 @@ Using the app in this repo:
 
 1. Clone this repo:
 
-       $ git clone 
+         $ git clone 
 
 2. Push the application to your Cloud Foundry install:
 
-       $ cf push websocket-demo -c '/app/websocketd --port=$PORT --dir=/app/ --devconsole'
+         $ cf push websocket-demo -c '/app/websocketd --port=$PORT --dir=/app/ --devconsole'
 
-3. Open your app in the browser with a URL similar to the following:<br>
-   ```https://websocket-demo.your-cf.com/bash.sh```
+3. Open your app in the browser with a URL similar to the following:
 
-4. Open the connection by entering the secure websocket URL in the colsole and hitting the tick:<br>
-   ```wss://websocket-demo.your-cf.com/bash.sh```
+         https://websocket-demo.your-cf.com/bash.sh
+
+4. Open the connection by entering the secure websocket URL in the colsole and hitting the tick:
+
+         wss://websocket-demo.your-cf.com/bash.sh
        
 5. Type the commands you want to evaluate at the send prompt
 
